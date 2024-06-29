@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <div class="info_box">
+        <div class="info_title">
+            <span>Quiz Application</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="info">2. Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="info">3. Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="info">4. Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="info">5. Lorem ipsum dolor sit amet consectetur.</div>
+        </div>
+
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+
+    <!--Quiz Box-->
+    <div class="quiz_box">
+        <header class="header">
+            <div class="title">Awesome Quiz Application</div>
+            <div class="timer">
+                <div class="time-text">Time Left</div>
+                <div class="time-sec">15</div>
+            </div>
+            <div class="time-line"></div>
+        </header>
+
+        <section>
+            <div class="que_text">
+                <!-- <span>Türkiye'nin başkenti neresidir?</span> -->
+            </div>
+            <div class="option-list">
+                <!-- <div class="option">
+                    <span>Lorem, ipsum dolor.</span>
+                    <div class="icon tick"><i class='bx bx-check'></i></div>
+                </div>
+                <div class="option">
+                    <span>Lorem, ipsum dolor.</span>
+                    <div class="icon cross"><i class='bx bx-x'></i></div>
+                </div>
+                <div class="option">
+                    <span>Lorem, ipsum dolor.</span>
+
+                </div>
+                <div class="option">
+                    <span>Lorem, ipsum dolor.</span>
+
+                </div> -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+                <span>
+                    <p class="qFirst"></p>Of<p class="qLast"></p>Questions
+                </span>
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+
+
+    <!--Result Box-->
+
+    <div class="result_box">
+        <div class="icon">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+        </div>
+        <div class="complete_text">Tebrikler Quiz Bitti!</div>
+        <div class="score_text">
+            <span>You have<p class="totalTrue">0</p> correct and <p class="totalFalse">0</p>incorrect. </span>
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+
+    <script src="js/questions.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
